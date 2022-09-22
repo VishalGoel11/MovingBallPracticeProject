@@ -1,6 +1,6 @@
 var ball=document.getElementById("ball");
-ball.style.marginTop="2px";
-ball.style.marginLeft="500px";
+ball.style.marginTop="10px";
+ball.style.marginLeft="15px";
 // ball.style.marginRight="px";
 // ball.style.marginBottom="342px";
 var a=2;
