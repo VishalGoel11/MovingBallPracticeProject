@@ -3,26 +3,32 @@ body{
     margin: 0;
     padding: 0;
 }
+.box{
+    display: flex;
+    width: 40vh;
+    height: 65vh;
+    border: 20px solid darkred;
+}
 span{
     width: 30px;
     height: 30px;
     background-color: beige;
     border-radius: 50%;
-    margin-left: 48vw;
-    margin-top: 3px;
-    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 #container{
-    margin-left: 45vw;
-    margin-top: 50vh; 
-    position: fixed;
+    top: 80vh;
+    left: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     z-index: 1;
+    gap: 8px;
 }
 button{
     width: 60px;
     height: 40px;
-    border-radius: 4px;
-}
-#btn3{
-    border-radius: 50%;
+    border-radius: 10px;
 }
